@@ -48,6 +48,6 @@ values
 alter table faculty add constraint faculty_dept_fk 
 foreign key (dept) references department(code); 
 
-select * from faculty
+select * from faculty 
 
 
