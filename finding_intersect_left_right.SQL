@@ -8,7 +8,7 @@
 - in the primary key variable we can not have the null
  faculty(dep) ------(foreign key)----> department(code)*/
 
-create database day4_fa
+create database day4_fa 
 use day4_fa
 drop table faculty
 drop table department
