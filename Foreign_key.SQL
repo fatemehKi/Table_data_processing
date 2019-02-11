@@ -45,8 +45,12 @@ values
 ('SAS', 'statisticsal analysis', '511 - metro college', 50000.00);
 
 /*the name faculty_dept_fk is just for naming and used for the joint*/
+/*the name faculty_dept_fk is just for naming and used for the joint
+**************Alter table child add constraint constrain_name 
+foreign key (name in the child table) references parent(name in prent tale)*************/
 alter table faculty add constraint faculty_dept_fk 
 foreign key (dept) references department(code); 
+
 
 select * from faculty 
 
