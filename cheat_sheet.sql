@@ -121,7 +121,7 @@ order by column_list
 we need to specify the product_details.id since we have the id  in both side
 
 The list of column in the selected part should be part of aggregate function or the group by function so if 
-we want to add something in the select, we needed to add it in the group by*/
+we want to add a column (something) in the select, we needed to add it in the group by*/
 use mynewdb
 select product_details.id, name, QntyAvail, sum(qty) as Total_sold
 from Product_Details join Product_Sales 
